@@ -1,0 +1,14 @@
+/build
+/dist
+/deprecated
+/node_modules
+/.env
+/.env.dev
+/.env.development
+/package-lock.json
+*.zip
+*.sqlite
+*.sql
+*.exe
+*.db
+*.development.json

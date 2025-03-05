@@ -1,0 +1,23 @@
+{
+
+    "material-icon-theme.folders.theme": "specific",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+      ".env": ".env*",
+      "settings.json": "emojis.json, emojis.dev.json",
+      "package.json": "*lock.json, *.lock, *lock.yaml, *.lockb, *config.json, *config.ts, .eslintrc.json, .gitignore, .discloudignore, biome.json, .nvmrc"
+    },
+ "typescript.suggest.autoImports": true,
+  "window.title": "${rootName}${separator}",
+  "files.autoSave": "afterDelay",
+"typescript.experimental.expandableHover": true,
+"files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+},
+}
